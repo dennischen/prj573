@@ -1,0 +1,22 @@
+<zk>
+	<window apply="test.UserActionComposer" width="100%" height="100%">
+		<div>
+			<button id="blue">set blue</button>
+			<button id="red">set red</button>
+			<button id="green">set green</button>
+		</div>
+		<div>
+			<button id="filla">fill a</button>
+			<button id="fillb">fill b</button>
+			<button id="fillc">fill c</button>
+		</div>
+		<div>
+			<button id="formulaA">fill formula A1</button>
+			<button id="formulaB">fill formula B1</button>
+			<button id="formulaC">fill formula C1</button>
+		</div>
+		<spreadsheet id="ss" width="100%" height="100%" showFormulabar="false"
+			showContextMenu="true" showToolbar="true" showSheetbar="false" maxVisibleRows="400"
+			maxVisibleColumns="25" src="/WEB-INF/books/blank.xlsx"/>
+	</window>
+</zk>
