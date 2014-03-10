@@ -1,0 +1,12 @@
+<zk>
+	<window apply="test.TestComposer" width="100%" height="100%">
+		<div>
+			<button id="formulaA">fill formula A1</button>
+			<button id="formulaB">fill formula B1</button>
+			<button id="formulaC">fill formula C1</button>
+		</div>
+		<spreadsheet id="ss" width="100%" height="100%" showFormulabar="false"
+			showContextMenu="true" showToolbar="true" showSheetbar="false" maxVisibleRows="40"
+			maxVisibleColumns="25" />
+	</window>
+</zk>
